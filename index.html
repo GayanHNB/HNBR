@@ -1,267 +1,326 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html><head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remittance Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        .form-container {
-            max-width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .form-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-group label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .form-group input,
-        .form-group select {
-            width: 100%;
-            padding: 8px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .form-group input:focus {
-            border-color: #007bff;
-            outline: none;
-        }
-        .submit-btn {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            text-align: center;
-        }
-        .submit-btn:hover {
-            background-color: #0056b3;
-        }
-        .country-code {
-            width: 50px;
-            text-align: center;
-            border: none;
-            background-color: #f1f1f1;
-            font-weight: bold;
-        }
-        .local-number {
-            width: calc(100% - 60px);
-        }
-        .country-code-container {
-            display: flex;
-            align-items: center;
-        }
-    </style>
+    <title>Internet Banking | Hatton National Bank</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <Link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <Link rel="stylesheet" type="text/css" href="css/theme.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body,td,th {
+	color: #FF0000;
+	font-size: 12px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+
+
+
+</head>
+<body>
+<div class="row">
+    <h>
+  <div align="center">
+  <div style="width: 100%;">
+        <div style="width: 50%; height: 120px; float: left; background: #FFFFFF;"> <img src="images/logo.png" alt="" width="234" height="96" align="left"></div>
+      <div style="margin-left: 50%; height: 120px; background: #FFFFFF;"> <img src="images/TPlogo.png" alt="" width="287" height="121" align="right"></div>
+    </div>
+  
+  
+  <div class="home-icon"></div>
+</div>
+<div class="content user-guide" id="userGuide">
+    <h2>&nbsp;</h2>
+    <div class="wrapper">
+    
+
+    
+      <div align="left" class="view-items">
+          <div class="field">
+                <div class="area">
+                <p class="logoip">
+<strong><font size="+2">Personal Online </font><font size="+2">Banking<a href="https://www.hnb.net/images/downloads/e-banking/user-guide-new-online-banking-portal.pdf" target="_blank" class="logoi"><img name="image" id="imgi" src="images/logoi.gif" width="36" height="32" alt=""></a></font></strong></p>
+
+            </div>
+        </div>
+          <a href="https://onlinebanking.hnb.lk/" target="_blank"><img src="images/pdf.png" alt=""/></a><a href="https://onlinebanking.hnb.lk/" target="_blank" ></a>        </div>
+<div class="view-items">
+            <div class="field">
+                <div class="area">
+                    <p><strong><font size="+2">CashExpress</font></strong></p>
+              </div>
+        </div>
+<a href="https://cashxpress.hnb.lk/CashExpress/login.jsp" target="_blank"><img src="images/pdf.png"/></a>      </div>
+      <div class="view-items">
+            <div class="field">
+                <div class="area">
+                    <p><strong><font size="+2">Corporate Online Banking</font></strong></p>
+              </div>
+        </div>
+  <a href="https://ebanking.hnb.lk/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=7083&LANGUAGE_ID=001" target="_blank"><img src="images/pdf.png"/></a>        </div>
+<div class="view-items">
+            <div class="field">
+                <div class="area">
+                    <p><strong><font size="+2">Payfast</font></strong></p>
+              </div>
+          </div>
+  <a href="https://payfast.hnb.lk/Payfast/" target="_blank"><img src="images/pdf.png"/></a>        </div>
+  
+  
+   <!-- FINAXIA URL ADD --> 
+  <div class="view-items">
+            <div class="field">
+                <div class="area">
+                    <p align="left"><strong><font size="+2">Transaction Banking HNB TxB</font></strong></p>
+              </div>
+          </div>
+  <a href="https://www.hnbtxb.com/bib-webapp/app/auth/login" target="_blank"><img src="images/pdf.png"/></a>        </div>
+  
+  
+  
+  <div class="view-items"></div>
+    <div class="view-items"></div>
+  
+      <div class="view-more-section">
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Check List - Find out if your PC & you are ready to do E Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Login to Internet Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Home Page</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Balance Inquiry</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Check List - Find out if your PC & you are ready to do E Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Login to Internet Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Home Page</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Balance Inquiry</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Check List - Find out if your PC & you are ready to do E Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+            <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Login to Internet Banking</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+            </div>
+        <div class="view-items">
+                <div class="field">
+                    <div class="area">
+                        <p>Home Page</p>
+                    </div>
+                </div>
+            <a href="" data-tooltip="Download"><img src="images/pdf.png"/></a>
+                <a href="" data-tooltip="Play Video"><img src="images/video.png"/></a>
+        </div>
+      </div>
+        
+        
+        <div class="view-items1">
+          <div class="field"1>
+                <div class="area">
+                    <p></p>
+            </div>
+          </div>
+        </div>
+        
+        <!------------------ NEW Internet banking URL --------------------------->
+        <!-- ------------------------------------- -->
+        
+<div class="rownew"><img src="images/Bottom_Line.png" width="95%" height="2" align="middle"></div>
+    <div align="justify" class="view-itemsnew">
+      <div class="fieldnew">
+        <div class="areanew">
+          <p align="right"><strong><font size="+2" color="#FFFFFF">Corporate Website</font></strong></p>
+        </div>
+      </div>
+      <div>
+      <a href="https://www.hnb.net/" target="_blank" >
+      <div align="left"><img src="images/pdf.png" alt=""/></div>
+      </a></div>
+    </div>
+</div>
+
+
+<div class="content terms-condition">
+    <div class="wrapper" id="downloadSec">
+        <div class="row">
+          <h3>&nbsp;</h3>
+        </div>
+        <div class="row">
+          <h>
+            <div align="center"><font color="#FFFFFF">© All rights reserved. Hatton National Bank PLC (PQ82).</font></div>
+          </h>
+        </div>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#downloadLink").click(function(event) {
+            $('html, body').animate({
+                scrollTop: $("#downloadSec").offset().top
+            }, 500);
+        });
+        $("#helpLink").click(function(event) {
+            $('html, body').animate({
+                scrollTop: $("#userGuide").offset().top
+            }, 500);
+        });
+        $("#view-less").click(function(event) {
+            $('html, body').animate({
+                scrollTop: $("#userGuide").offset().top
+            }, 500);
+        });
+        $("#viewMore").click(function (event) {
+            $('.view-more-section').toggleClass("view-more-all-elements");
+            $(this).toggleClass("active");
+        });
+    });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25623252-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<!-- ------------------------------------------------------- -->
+<link href="L001/consumer/theme/hnb_banner_min.css" rel="stylesheet" type="text/css">
+<!-- Image in the POPUP message Script -->
+<!--<script type="text/javascript" src="scripts/common/jquery_banner.min.js"></script>-->
+<script type="text/javascript" src="scripts/common/stbanner.min.js"></script>
+<!-- ------------------------------------------------------- -->
+
+
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 </head>
 <body>
 
-<div class="form-container">
-    <h2>Remittance Form</h2>
-    <form action="#" method="post">
-        <div class="form-group">
-            <label for="reference">Reference</label>
-            <input type="text" id="reference" name="reference" readonly>
-        </div>
-        <div class="form-group">
-            <label for="usd-rate">Today's Rate</label>
-            <input type="number" id="usd-rate" name="usd-rate" required oninput="calculateCharges()">
-        </div>
-        <div class="form-group">
-            <label for="amount-lkr">Amount in LKR</label>
-            <input type="number" id="amount-lkr" name="amount-lkr" required oninput="calculateCharges()">
-        </div>
-        <div class="form-group">
-            <label for="charges-usd">Charges (Fee) in USD</label>
-            <input type="number" id="charges-usd" name="charges-usd" readonly>
-        </div>
-        <div class="form-group">
-            <label for="amount-usd">Amount in USD</label>
-            <input type="number" id="amount-usd" name="amount-usd" readonly>
-        </div>
-        <div class="form-group">
-            <label for="total-amount">Total Amount (USD)</label>
-            <input type="number" id="total-amount" name="total-amount" readonly>
-        </div>
-        <div class="form-group">
-            <label for="beneficiary-bank">Beneficiary's Bank</label>
-            <select id="beneficiary-bank" name="beneficiary-bank" required>
-                <option value="" disabled selected>Select a bank</option>
-                <option value="Hatton National Bank PLC">Hatton National Bank PLC</option>
-                <option value="Amana Bank PLC">Amana Bank PLC</option>
-                <option value="Bank of Ceylon">Bank of Ceylon</option>
-                <option value="Bank of China Ltd">Bank of China Ltd</option>
-                <option value="Cargills Bank PLC">Cargills Bank PLC</option>
-                <option value="Citibank N.A.">Citibank N.A.</option>
-                <option value="Commercial Bank of Ceylon PLC">Commercial Bank of Ceylon PLC</option>
-                <option value="Deutsche Bank AG">Deutsche Bank AG</option>
-                <option value="DFCC Bank PLC">DFCC Bank PLC</option>
-                <option value="Habib Bank Ltd">Habib Bank Ltd</option>
-                <option value="Indian Bank">Indian Bank</option>
-                <option value="Indian Overseas Bank">Indian Overseas Bank</option>
-                <option value="MCB Bank Ltd">MCB Bank Ltd</option>
-                <option value="National Development Bank PLC">National Development Bank PLC</option>
-                <option value="Nations Trust Bank PLC">Nations Trust Bank PLC</option>
-                <option value="Pan Asia Banking Corporation PLC">Pan Asia Banking Corporation PLC</option>
-                <option value="People's Bank">People's Bank</option>
-                <option value="Public Bank Berhad">Public Bank Berhad</option>
-                <option value="Sampath Bank PLC">Sampath Bank PLC</option>
-                <option value="Seylan Bank PLC">Seylan Bank PLC</option>
-                <option value="Standard Chartered Bank">Standard Chartered Bank</option>
-                <option value="State Bank of India">State Bank of India</option>
-                <option value="Union Bank of Colombo PLC">Union Bank of Colombo PLC</option>
-                <option value="HDFC Bank">Housing Development Finance Corporation Bank of Sri Lanka (HDFC Bank)</option>
-                <option value="Lankaputhra Development Bank Ltd">Lankaputhra Development Bank Ltd</option>
-                <option value="National Savings Bank">National Savings Bank</option>
-                <option value="Pradeshiya Sanwardhana Bank">Pradeshiya Sanwardhana Bank (Regional Development Bank)</option>
-                <option value="Sanasa Development Bank PLC">Sanasa Development Bank PLC</option>
-                <option value="Sri Lanka Savings Bank Ltd">Sri Lanka Savings Bank Ltd</option>
-                <option value="State Mortgage & Investment Bank">State Mortgage & Investment Bank</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="beneficiary-account">Beneficiary's Account Number</label>
-            <input type="text" id="beneficiary-account" name="beneficiary-account" required>
-        </div>
-        <div class="form-group">
-            <label for="beneficiary-name">Beneficiary's Name</label>
-            <input type="text" id="beneficiary-name" name="beneficiary-name" required>
-        </div>
-        <div class="form-group">
-            <label for="remitter-name">Remitter's Name</label>
-            <input type="text" id="remitter-name" name="remitter-name" required>
-        </div>
-        <div class="form-group">
-            <label for="remitter-country">Remitter's Country</label>
-            <select id="remitter-country" name="remitter-country" required onchange="updateCountryCode()">
-                <option value="" disabled selected>Select country</option>
-                <option value="Maldives">Maldives</option>
-                <option value="USA">USA</option>
-                <option value="UAE">UAE</option>
-                <option value="India">India</option>
-                <option value="Israel">Israel</option>
-                <option value="Romania">Romania</option>
-                <option value="South Africa">South Africa</option>
-                <option value="Germany">Germany</option>
-                <option value="Italy">Italy</option>
-                <option value="Canada">Canada</option>
-                <option value="Australia">Australia</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Malaysia">Malaysia</option>
-                <option value="South Korea">South Korea</option>
-                <option value="Cyprus">Cyprus</option>
-                <option value="Switzerland">Switzerland</option>
-                <option value="Japan">Japan</option>
-                <option value="Norway">Norway</option>
-                <option value="Sweden">Sweden</option>
-                <option value="Turkey">Turkey</option>
-                <option value="Bahrain">Bahrain</option>
-                <option value="Egypt">Egypt</option>
-                <option value="UK">United Kingdom</option>
-                <option value="France">France</option>
-                <option value="Russia">Russia</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="Thailand">Thailand</option>
-                <option value="Indonesia">Indonesia</option>
-                <option value="Philippines">Philippines</option>
-                <option value="Saudi Arabia">Saudi Arabia</option>
-                <option value="Nepal">Nepal</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="remitter-phone">Remitter's Phone Number</label>
-            <div class="country-code-container">
-                <input type="text" id="country-code" class="country-code" readonly>
-                <input type="text" id="remitter-phone" name="remitter-phone" class="local-number" required>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog_hnb">
+        <div class="modal-content_hnb">
+            <div class="modal-body_hnb">
+            
+
+           
+            <!-- Image in the POPUP message -->
+            <!--<img src="images/IMG-20210104-WA0013.png">-->
+            <div class="form-group_hnb">              </div>
+                    <div class="form-group_hnb">                    </div>
+                    <!--<button type="submit" class="btn btn-primary">Subscribe</button>-->
+                    <br>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        
+                        
             </div>
-        </div>
-        <button type="submit" class="submit-btn">Submit</button>
-    </form>
+      </div>
+    </div>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const referenceField = document.getElementById("reference");
-        const timestamp = new Date().getTime();
-        referenceField.value = "HNB-" + timestamp;
-    });
 
-    function calculateCharges() {
-        const usdRate = document.getElementById("usd-rate").value;
-        const amountLkr = document.getElementById("amount-lkr").value;
-        const chargesUsd = document.getElementById("charges-usd");
-        const amountUsd = document.getElementById("amount-usd");
-        const totalAmount = document.getElementById("total-amount");
+</div>
 
-        if (usdRate && amountLkr) {
-            const amountInUsd = amountLkr / usdRate;
-            chargesUsd.value = (amountInUsd * 0.01).toFixed(2); // Assuming 1% charge
-            amountUsd.value = amountInUsd.toFixed(2);
-            totalAmount.value = (amountInUsd + parseFloat(chargesUsd.value)).toFixed(2);
-        }
-    }
 
-    function updateCountryCode() {
-        const country = document.getElementById("remitter-country").value;
-        const countryCode = document.getElementById("country-code");
-        
-        const codes = {
-            "Maldives": "+960",
-            "USA": "+1",
-            "UAE": "+971",
-            "India": "+91",
-            "Israel": "+972",
-            "Romania": "+40",
-            "South Africa": "+27",
-            "Germany": "+49",
-            "Italy": "+39",
-            "Canada": "+1",
-            "Australia": "+61",
-            "Singapore": "+65",
-            "Malaysia": "+60",
-            "South Korea": "+82",
-            "Cyprus": "+357",
-            "Switzerland": "+41",
-            "Japan": "+81",
-            "Norway": "+47",
-            "Sweden": "+46",
-            "Turkey": "+90",
-            "Bahrain": "+973",
-            "Egypt": "+20",
-            "UK": "+44",
-            "France": "+33",
-            "Russia": "+7",
-            "Bangladesh": "+880",
-            "Thailand": "+66",
-            "Indonesia": "+62",
-            "Philippines": "+63",
-            "Saudi Arabia": "+966",
-            "Nepal": "+977"
-        };
 
-        countryCode.value = codes[country] || "";
-    }
-</script>
+
 
 </body>
 </html>
